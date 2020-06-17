@@ -7,3 +7,7 @@ h1{
 .container-fluid{
     background-color: orangered;
 }
+.container{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}

@@ -12,7 +12,7 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-md-10">
+      <div class="col-md-6">
         <hr>
         <div  class="myQuote"*ngFor="let quote of quotes; let i=index">
           <p appHighlight *ngIf="highestUpvote()===quote.upvotes && quote.upvotes>0">{{quote.quote}}</p>
@@ -25,6 +25,13 @@
           <button class="btn" (click)="downvote(i)">Downvote</button>
           <button class="btn btn-danger" (click)="delQuote(i)">Delete</button>
 
+
+        </div>
+    </div>
+  </div>
+</div>
+
+</div>
         <hr>
 
         </div>
