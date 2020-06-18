@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import {Quote} from '../quote';
+import {Quotes} from '../quotes';
 @Component({
   selector: 'app-quotes',
   templateUrl: './quotes.component.html',
   styleUrls: ['./quotes.component.css']
 })
 export class QuotesComponent implements OnInit {
-  quotes=[new Quote("No pain no gain","Do not judge a book by its cover","Never give up"),
-  new Quote("Always make your dreams become alive","Your dreams are valid","don't be obsessed with looking successful")]
+  quotes=[new Quotes("No pain no gain","Do not judge a book by its cover","Never give up"),
+  new Quotes("Always make your dreams become alive","Your dreams are valid","don't be obsessed with looking successful")]
     preNum:number
     lastNum:number
     counter:number
