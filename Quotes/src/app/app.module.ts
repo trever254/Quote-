@@ -7,6 +7,7 @@ import { QuotesComponent } from './quotes/quotes.component';
 import { HighlightDirective } from './highlight.directive';
 import { QoutesFormComponent } from './qoutes-form/qoutes-form.component';
 import { FormComponent } from './form/form.component';
+import { DetailsComponent } from './details/details.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FormComponent } from './form/form.component';
     QuotesComponent,
     HighlightDirective,
     QoutesFormComponent,
-    FormComponent
+    FormComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule,
